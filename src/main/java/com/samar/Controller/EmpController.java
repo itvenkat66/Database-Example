@@ -118,4 +118,8 @@ public class EmpController {
 		return empRepo.save(ee);
 		
 	}
+	
+	public String getString() {
+		return "Testing...";
+	}
 }
